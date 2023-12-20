@@ -1,0 +1,297 @@
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: #f4f3f3;
+    padding: 4px;
+    border-radius: 5px;
+    color: #2c2a43;
+    /* border: none; */
+    /* border-left: 3px solid #323048; */
+    -webkit-box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+    -moz-box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+    box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #73a0a0;
+    border-radius: 11px;
+    
+  }
+.box-style {
+    background-color: #fff;
+    background: linear-gradient(45deg, #e8efef, #fff, #fff, #f2f2f2, #fff, #fff, #f6f6f6, #fff, #fff, #d7d0d0);
+    padding: 28px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Muli, sans-serif;
+    color: #2c2a43;
+}
+.form-group {
+    margin-bottom: 1rem;
+    font-family: Muli, sans-serif;
+}
+.form-group {
+    margin-bottom: 37px!important;
+}
+.form-bg {
+   
+}
+
+.form-bg:after {
+    
+}
+
+
+.form-bg h2 {
+    display: inline-block;
+    line-height: 100%;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+    letter-spacing: 0;
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 1px;
+    border-color: white;
+    background-image: linear-gradient(to top, #0273aa 0%, #0273aacc 80%, #0273aae0 100%);
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 10px 16px;
+}
+
+.btn-alg {
+    justify-content: center;
+    display: flex;
+}
+
+.button-color {
+    color: #fff;
+    border-color: white;
+    background-image: linear-gradient(to top, #0273aa 0%, #0273aacc 80%, #0273aae0 100%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+.form-btgap {
+    margin-bottom: 32px;
+}
+
+.form-group {
+    margin-bottom: 33px;
+   font-family: Muli, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sub-head {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 18px!important;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2a43;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, 0.69) 1px 1px;
+}
+.mob-but{
+	margin-bottom:0!important;
+}
+input[type=checkbox],
+input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) and (min-width: 300px) {
+    .logo-register img {
+        width: 100%;
+    }
+    .form-bg h2 {
+        font-size: 11px;
+    }
+    .mob-but {
+        width: 100%;
+    }
+    option {
+        font-size: 10px!important;
+    }
+    .foot-br {
+        margin-top: 14px!important;
+        text-align: center!important;
+        margin-left: -40px!important;
+    }
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+#accordion .panel {
+    border: 1px solid #0273aa;
+    border-radius: 0;
+    box-shadow: none;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    padding: 0;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#accordion .panel-heading {
+    padding: 0;
+    background: #fff;
+    position: relative;
+}
+
+#accordion .panel-heading:before,
+#accordion .panel-heading:after {
+    content: "";
+    border-right: 8px solid #0273aa;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    position: absolute;
+    top: 12px;
+    left: -9px;
+}
+
+#accordion .panel-heading:after {
+    border-right: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    position: absolute;
+    top: 13px;
+    left: -6px;
+}
+
+#accordion .panel-title a {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0273aa;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+#accordion .panel-title a:hover {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0273aa;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-decoration: none;
+}
+
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before {
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    color: #0273aa;
+    text-align: center;
+    border: 1px solid #0273aa;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    transition: all 0.5s ease 0s;
+}
+
+#accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+
+#accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+
+#accordion .panel-body {
+    padding: 0 15px 15px;
+    border: none;
+    font-size: 14px;
+    color: #807e7e;
+    line-height: 28px;
+}
+
+#accordion .panel-body p {
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+@media (max-width: 767px) and (min-width: 200px) {
+    .offset-2 {
+        margin-left: 0;
+    }
+    .footer-sidebar button {
+        display: none;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+        width: auto;
+        background: #fff;
+        box-shadow: none;
+    }
+    .section-heading h3 {
+        font-size: 14px;
+    }
+    #accordion .panel-title a {
+        display: block;
+        padding: 10px 20px;
+        border: none;
+        font-size: 11px;
+        font-weight: 600;
+        color: #0273aa;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        text-decoration: none;
+    }
+    #accordion .panel-title a:hover {
+        display: block;
+        padding: 10px 20px;
+        border: none;
+        font-size: 11px;
+        font-weight: 600;
+        color: #0273aa;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        text-decoration: none;
+    }
+}
