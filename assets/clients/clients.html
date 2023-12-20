@@ -1,0 +1,143 @@
+<!DOCTYPE html>   
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>OUR CLIENTS</title>
+        <link rel="shortcut icon" href="images/favicon.png"> 
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> 
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head> 
+
+    <body style="background: url(../img/client-bg.png);">
+        <div id="top-element" class="elevator"></div>
+        <div class="wel-clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 cl-hd">
+                        <img src="../img/client.png" class="img-responsive" />
+                        <h1>Clients</h1>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="multi-slider-align">
+                            <ul id="flexiselDemo3a">
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                                <li><a href="#" target="_blank"><img src="../img/logo.png" class="img-responsive popshadow" /></a></li>
+                            </ul>    
+                            <div class="clearout"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <script type="text/javascript" src="js/jquery.flexisel.js"></script>    
+        <script type="text/javascript">
+
+            $(window).load(function() 
+            {
+                $("#flexiselDemo1").flexisels();
+                $("#flexiselDemo2").flexisels
+                ({
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: 
+                    { 
+                        portrait: 
+                        { 
+                            changePoint:480,
+                            visibleItems: 1
+                        }, 
+                        landscape: 
+                        { 
+                            changePoint:640,
+                            visibleItems: 2
+                        },
+                        tablet: 
+                        { 
+                            changePoint:768,
+                            visibleItems: 3
+                        }
+                    }
+                });
+
+                $("#flexiselDemo3").flexisels
+                ({
+                    visibleItems:3,
+                    animationSpeed: 1000,
+                    autoPlay: true,
+                    autoPlaySpeed: 3000,            
+                    pauseOnHover: true,
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: 
+                    { 
+                        portrait: 
+                        { 
+                            changePoint:480,
+                            visibleItems: 1
+                        }, 
+                        landscape: 
+                        { 
+                            changePoint:640,
+                            visibleItems: 2
+                        },
+                        tablet: 
+                        { 
+                            changePoint:768,
+                            visibleItems: 3
+                        }
+                    }
+                });
+    
+                $("#flexiselDemo3a").flexisels
+                ({
+                    visibleItems:4,
+                    animationSpeed: 1000,
+                    autoPlay: true,
+                    autoPlaySpeed: 3000,            
+                    pauseOnHover: true,
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: 
+                    { 
+                        portrait: 
+                        { 
+                            changePoint:480,
+                            visibleItems: 1
+                        }, 
+                        landscape: 
+                        { 
+                            changePoint:640,
+                            visibleItems: 2
+                        },
+                        tablet: 
+                        { 
+                            changePoint:768,
+                            visibleItems: 3
+                        }
+                    }
+                });
+
+                $("#flexiselDemo4").flexisels
+                ({
+                    clone:false
+                });
+    
+            });
+            
+        </script>
+    
+    </body>
+</html>
